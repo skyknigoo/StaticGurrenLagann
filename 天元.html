@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天元突破</title>
+    <link rel="icon" href="./imgs/鑽頭 ICON.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="javascript/js.js"></script>
+</head>
+<body>
+    <!-- TOP定位的地方 -->
+    <a href="#top"><div id="gotop"></div></a>
+    <!-- 標題圖片 -->
+    <div id="top" class="titleimgs"></div>
+    <!-- 導覽列 -->
+    <div class="navall">
+        <a href="#stroy"><nav class="nt">作品概要</nav></a>
+        <a href="#protagonist"><nav class="nt">角色介紹</nav></a>    
+        <a href="#Mechanica"><nav class="nt">機體</nav></a>
+        <a href="#Machine"><nav class="nt">經典台詞</nav></a>    
+        <a href="#Music"><nav class="nt">主題曲</nav></a>
+        <a href="#Movie"><nav class="nt">劇場版</nav></a>
+    </div>   
+
+    <hr>
+
+    <h1 class="h1_all" id="stroy">作品概要</h1>
+    <hr>
+        <div class="storyblock">
+            <br><br>
+                <h2 class="sttext">天元突破有著中央突破、王道路線的含意。</h2>
+
+                <h4 class="sttext_">天元突破主要是呼應最終話「連天與次元都一併突破」此句，與圍棋術語相同應該是兼用其涵義。</h4>
+
+                <h4 class="sttext_">也是天空或屋頂之意，依照劇情中主角一開始從地底出來，再到宇宙進行作戰，就可了解此意，<br>主角也常說是要突破天空的男人，這是一部熱血又勵志的作品。</h4>
+            
+        </div>
+
+        <div class="storyimg"></div>
+
+
+    <!-- 角色 -->
+    <h1 class="h1_all" id="protagonist">角色介紹</h1>
+    <hr>
+        <h1 class="pro_all">主角群</h1>
+        <!-- 15話前的角色介紹 -->
+        <table class="table1" id="table01">
+            <tb>
+                <tr>
+                    <td><a onclick="pro_sim()"><img src="./imgs/角色介紹/15話之前/西蒙.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_kmina()"><img src="./imgs/角色介紹/15話之前/卡米那.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_yoko()"><img src="./imgs/角色介紹/15話之前/傭子.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_nia()"><img src="./imgs/角色介紹/15話之前/妮雅.png" alt="" class="yellow"></a></td>
+                </tr>
+                <tr>
+                    <td><a onclick="pro_leeron()"><img src="./imgs/角色介紹/15話之前/利龍.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_dayakka()"><img src="./imgs/角色介紹/15話之前/達雅卡.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_coco()"><img src="./imgs/角色介紹/15話之前/可可爺爺.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_rossiu()"><img src="./imgs/角色介紹/15話之前/羅修.png" alt="" class="yellow"></a></td>
+                </tr>
+                <tr>
+                    <td><a onclick="pro_kittan()"><img src="./imgs/角色介紹/15話之前/奇坦.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_kiyoh()"><img src="./imgs/角色介紹/15話之前/奇揚.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_kinon()"><img src="./imgs/角色介紹/15話之前/奇儂.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="pro_kiyal()"><img src="./imgs/角色介紹/15話之前/奇雅露.png" alt="" class="yellow"></a></td>
+                </tr>
+                <tr>
+                    <td></td><td></td><td></td>                  
+                    <td colspan="4"><a onclick="pro_pota()"><img src="./imgs/角色介紹/15話之前/布塔.png" alt="" class="yellow" style="width: 160px; height: 50px;;"></a></td>
+                </tr>
+            </tb>
+        </table>
+        <!-- <a onclick="table1to_01()"><img src="./imgs/角色介紹/15話之前/點擊切換17.png"></a> -->
+        <!-- 15話前的反派介紹 -->
+        <table class="table2">
+            <h1 class="pro_all">反派</h1>
+                <tr>
+                    <td><a onclick="pro_vlalo()"><img src="./imgs/角色介紹/15話之前/反派/維拉爾.png" alt="" class="yellow"></td>
+                    <td><a onclick="pro_bos1()"><img src="./imgs/角色介紹/15話之前/反派/怒濤王.png" alt="" class="yellow"></td>
+                    <td><a onclick="pro_bos2()"><img src="./imgs/角色介紹/15話之前/反派/流麗王.png" alt="" class="yellow"></td>
+                    <td><a onclick="pro_bos3()"><img src="./imgs/角色介紹/15話之前/反派/神速王.png" alt="" class="yellow"></td>   
+                </tr>
+                <tr>
+                    <td><a onclick="pro_bos4()"><img src="./imgs/角色介紹/15話之前/反派/不動王.png" alt="" class="yellow"></td>
+                    <td><a onclick="prb_BIGboss()"><img src="./imgs/角色介紹/15話之前/反派/螺旋王.png" alt="" class="yellow"></td>
+
+        </table>
+        <!-- 角色介紹區塊 -->
+        <div id="proimgs" class="test"></div>
+
+
+    <!-- 機體 -->
+    <h1 class="h1_all" id="Mechanica">機體</h1>
+    <hr>
+    <h1 class="pro_all">主角群</h1>
+    <table class="Mec_table1" id="Mec_table1">
+        <tb>
+            <tr>
+                <td><a onclick="mec_lagann()"><img src="./imgs/機體介紹/螺顏.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_gurren()"><img src="./imgs/機體介紹/紅蓮.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_gurrenlagann()"><img src="./imgs/機體介紹/紅蓮螺顏.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_gurrenlagannfinal()"><img src="./imgs/機體介紹/紅蓮螺顏飛行狀態.png" alt="" class="yellow"></a></td>
+            </tr>
+            <tr>
+                <td><a onclick="mec_kittan()"><img src="./imgs/機體介紹/奇坦機.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_yoko()"><img src="./imgs/機體介紹/庸子機體.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_dagrla()"><img src="./imgs/機體介紹/大紅蓮團戰艦.png" alt="" class="yellow"></a></td>
+                <td><a onclick="mec_dagrlaeve()"><img src="./imgs/機體介紹/大紅蓮團們機體.png" alt="" class="yellow"></a></td>
+            </tr>
+            <tr>
+                <td><a onclick="mec_arkglship()"><img src="./imgs/機體介紹/方舟紅蓮戰艦.png" alt="" class="yellow"></td></a>
+                <td><a onclick="mec_arkgl()"><img src="./imgs/機體介紹/方舟紅蓮機體.png"  class="yellow"></td></a>
+                <td><a onclick="mec_galaxyglship()"><img src="./imgs/機體介紹/超銀河紅蓮戰艦.png"  class="yellow"></td></a>
+                <td><a onclick="mec_galaxygl()"><img src="./imgs/機體介紹/超銀河紅蓮機體.png"  class="yellow"></td></a>
+            </tr>
+        </tb>
+    </table>
+    <h1 class="pro_all">反派</h1>
+        <table class="mec_table2" id="mec_tabl2">
+            <td>
+                <tr>
+                    <td><a onclick="mec_vlalo()"><img src="./imgs/機體介紹/反/維拉爾enki.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_bos1()"><img src="./imgs/機體介紹/反/怒濤王機體.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_bos2()"><img src="./imgs/機體介紹/反/淫蕩王機體.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_bos3()"><img src="./imgs/機體介紹/反/神速王機體.png" alt="" class="yellow"></a></td>
+                </tr>
+                <tr>
+                    <td><a onclick="mec_bos4()"><img src="./imgs/機體介紹/反/不動王機體.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_bigboss_()"><img src="./imgs/機體介紹/反/螺旋王機體.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_bosshone()"><img src="./imgs/機體介紹/反/螺旋王基地.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_anti01()"><img src="./imgs/機體介紹/反/反螺旋族先鋒.gif" alt="" class="yellow"></a></td>
+                </tr>
+                <tr>
+                    <td><a onclick="mec_anti02()"><img src="./imgs/機體介紹/反/反螺旋族兵器.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_anti03()"><img src="./imgs/機體介紹/反/反螺旋族月球兵器.png" alt="" class="yellow"></a></td>
+                    <td><a onclick="mec_anti04()"><img src="./imgs/機體介紹/反/反螺旋族最終兵器.png" alt="" class="yellow"></a></td>
+                </tr>
+            </td>
+        </table>
+        <!-- 機體介紹區塊 -->
+        <div id="mecimgs"></div>
+
+
+        <!-- 經典台詞介紹 -->
+    <h1 class="h1_all" id="Machine">經典台詞</h1>
+    
+    <hr>
+    <h1 style="color:white; text-shadow: 3px 3px 3px black; ">點擊字體習得中二之魂台詞</h1>
+    <div id="Macbackimg">
+         <div class="addclass_01">
+             <a  onclick="add_01()" ><div class="addclassbtn_01"></div></a></a>
+            <p id="Mac1" class="Mac1_"></p>
+        </div>
+
+        <div class="addclass_02">
+            <a  onclick="add_02()" ><div class="addclassbtn_02"></div></a></a>
+           <p id="Mac2" class="Mac2_"></p>
+        </div>
+
+        <div class="addclass_03">
+            <a  onclick="add_03()" ><div class="addclassbtn_03"></div></a></a>
+           <p id="Mac3" class="Mac3_"></p>
+        </div>
+        <div class="addclass_04">
+            <a  onclick="add_04()" ><div class="addclassbtn_04"></div></a></a>
+           <p id="Mac4" class="Mac4_"></p>
+        </div>
+        <div class="addclass_05">
+            <a  onclick="add_05()" ><div class="addclassbtn_05"></div></a></a>
+           <p id="Mac5" class="Mac5_"></p>
+        </div>
+        <div class="addclass_06">
+            <a  onclick="add_06()" ><div class="addclassbtn_06"></div></a></a>
+           <p id="Mac6" class="Mac6_"></p>
+        </div>
+        <div class="addclass_07">
+            <a  onclick="add_07()" ><div class="addclassbtn_07"></div></a></a>
+           <p id="Mac7" class="Mac7_"></p>
+        </div>
+
+    </div>
+
+    <h1  class="h1_all" id="Music">主題曲&插入曲&片尾曲&同人創作</h1>
+    <hr>
+
+        <div class="mus_op_all"><h1>主題曲</h1>
+            <div class="mus_op_out"><img src="imgs/音樂/空色_外框_文字.png"></div>
+            <a href="https://www.youtube.com/watch?v=XIIPPTnZxkw&ab_channel=%E9%98%BF%E4%BC%B8" target="blank_"><p id="mu_op_in"></p></a>
+        </div>
+
+        <div class="mus_md_all"><h1>插入曲</h1>
+            <div class="mus_md_out"><img src="imgs/音樂/Power_外框_文字.png"></div>
+            <a href="https://www.youtube.com/watch?v=VT6LFOIofRE&ab_channel=Paladin65536" target="blank_"><p id="mu_md_in"></p></a>
+        </div>
+        <div style="clear:both;"></div>
+
+        <div class="mus_op2_all"><h1>主題曲II</h1>
+            <div class="must_op2_out"><img src="imgs/音樂/繞之世界_文字_外框.png"></div>
+            <a href="https://www.youtube.com/watch?v=cawZ5WCg1yE&ab_channel=ShokoNakagawaVEVO" target="blank_"><p id="mu_op2_in"></p></a>
+        </div>
+
+        <div class="mus_ed_all"><h1>片尾曲</h1>
+            <div class="mus_ed_out"><img src="imgs/音樂/淚之種_文字_外框.png"></div>
+            <a href="https://www.youtube.com/watch?v=L0Io1uWdzqI&ab_channel=KuZuYNightcore%E3%80%8CJ-Music%E3%80%8D" target="blank_"><p id="mu_ed_in"></p></a>
+        </div>>
+        <div style="clear:both;"></div>
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <!-- 劇場版介紹 -->
+    <h1  class="h1_all" id="Movie">劇場版</h1>
+    <hr>
+
+    <div class="movie_all">
+        <div class="movie_img_1"></div>
+        <div class="movie_text">
+            <h1>天元突破 紅連篇</h1>
+            <p>劇場版第1部。<br>2008年9月6日上映。<br>
+                主要劇情為TV第01-14話的總集編，<br>並對大紅蓮團對戰四天王的部分進行了重新演繹。
+                <br>熱血的檔次再度突破。
+            </p>
+        </div>
+        <div style="clear:both;"></div>
+
+        <div class="movie_img_2"></div>
+        <div class="movie_text">
+            <h1>天元突破 螺巖篇</h1>
+            <p>劇場版第2部。2009年4月25日上映。<br>
+                主要劇情為TV第15-27話的總集編，<br>並對大紅蓮團對戰反螺旋族的部分進行了重新演繹。
+                <br>熱血的檔次直接貫穿宇宙,超越了天與次元!!!
+            </p>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+
+
+
+
+    <!-- 額外補充 -->
+    <hr>
+    <div class="psbackimg">
+        <div class="ps_imgs_text"><h1><br>圖片欣賞</h1></div>
+    <div class="slider_container">
+        <div>
+            <img src="./imgs/圖片欣賞/0b35e7f4483571d6ebab96c8a91a68b9.jpg" alt="pure css3 slider" />
+            <span class="info"></span>
+        </div>
+        <div>
+            <img src="imgs/圖片欣賞/16315666xp3bxuksaak60t.jpg.thumb.jpg" alt="pure css3 slider" />
+            <span class="info"></span>
+        </div>
+        <div>
+            <img src="imgs/圖片欣賞/163200kg403h6bz02bk2b0.jpg.thumb.jpg" alt="pure css3 slider" />
+            <span class="info"></span>
+        </div>
+        <div>
+            <img src="imgs/圖片欣賞/1632038wc3gny7jyyvv47e.jpg.thumb.jpg" alt="pure css3 slider" />
+            <span class="info"></span>
+        </div>
+        <div>
+            <img src="imgs/圖片欣賞/end.jpg" alt="pure css3 slider" />
+            <span class="info"></span>
+        </div>
+    </div>
+</div>
+
+
+   <!-- 遊戲區塊 -->
+<div id="game_box">
+    <button onclick="start_game()" id="game_btn">突破天際吧!</button>
+    <p>開始後連續點擊<br>"W"按鍵</p>
+    <div id="dilo">
+        
+    </div>
+    
+</div>
+
+
+
+</body>
+<script>
+
+    //  按鈕後每X毫秒執行一次
+    function start_game(){
+    var downInterval = setInterval(dilo_dwon ,1);
+    }
+    
+    var obj = document.getElementById("dilo");
+    var c = 1   ;           //累加值
+
+    
+    //鍵盤按下放開觸發
+        document.onkeyup=function(e){ 
+            var e=window.event||e;
+    
+            if(e.keyCode == 87){
+            c = c -200
+            // fj.style.top=(fj.offsetTop+20)+"px";
+         }
+      }
+    // ----------------------------------------------
+
+    function dilo_dwon() {
+        var newY = c++ + "px" ;
+        obj.style.top = newY;
+
+
+        // 9400為目標終點
+       if( obj.offsetTop < -9400 ){   
+            clearInterval("downInterval");
+            console.log("呼叫了IF")
+            window.open(' https://rs.kantie.org/it/https://i10.hoopchina.com.cn/hupuapp/bbs/938/31884938/thread_31884938_20200217155037_s_2289397_w_480_h_270_23343.gif', '我的鑽頭', config='height=400,width=600');
+            window.location.reload();
+            
+            alert("我的鑽頭是突破天際的鑽頭阿")
+            
+
+        } else {
+
+            console.log("c")
+            
+        
+        }
+
+    }
+    // function dilo_dwon() {
+      
+    
+    //    if( obj.offsetTop > -1000 ){   
+        
+    //     ///你每次進每秒監聽
+    //     //都是x ++
+    //     //每次近來 x +1 
+    //     // 這邊這一航 y就會 =  x加完的值 
+    
+    //     // var newYTop = fj.style.top
+    //     //20px
+    //     //>>20
+    //     //  21 + 'px'
+    //     var newY = c++ + "px" ;
+    //     obj.style.top = newY;
+    //     return 
+    //     }   else {
+    //         clearInterval("downInterval");
+    //         console.log("c")
+            
+            
+    //         return ;
+    //     }
+    //     return ;
+    // }
+
+    
+        //實際使用 
+    //         document.onkeydown=function(e){  //對整個頁面文件監聽 
+    //     var keyNum=window.event ? e.keyCode :e.which;  //獲取被按下的鍵值 
+    //     //判斷如果使用者按下了回車鍵（keycody=13） 
+    //     if(keyNum==){ 
+    //         alert('您按下了回車')
+    //     } 
+    // }
+    
+    </script>
+
+
+<footer>
+    <hr>
+    <img  src="imgs/可愛的頁腳.png" alt="" id="footer">
+
+</footer>
+
+</html>
