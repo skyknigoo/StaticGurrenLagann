@@ -28,7 +28,7 @@ body{
 
 /* 標題圖片 */
 .titleimgs{
-    background-image: url(../imgs/天元突破titile.png);
+    background-image: url(./imgs/天元突破titile.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 734px;
@@ -94,7 +94,7 @@ text-decoration:none;
 /* 作品概要圖片 */
 .storyimg{
     transition: all 1s ;
-    background-image: url(../imgs/作品概要圖品/kv.jpg);
+    background-image: url(./imgs/作品概要圖品/kv.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 510px;
@@ -252,7 +252,7 @@ th{
 #Macbackimg{
     margin: 0%;
     transition: all 3s ;
-    background-image: url(../imgs/西蒙挖洞紅背景.png);
+    background-image: url(./imgs/西蒙挖洞紅背景.png);
     background-repeat: round;
     background-size: 100%;
     width: 1870px;
@@ -264,7 +264,7 @@ th{
 
 /* 台詞介紹第一 */
 .addclassbtn_01{
-    background-image: url(../imgs/台詞介紹/字/天.png);
+    background-image: url(./imgs/台詞介紹/字/天.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 108px;
@@ -277,7 +277,7 @@ th{
 }
 
 .addclassbtn_01:hover{
-    background-image: url(../imgs/台詞介紹/字/天_.png);
+    background-image: url(./imgs/台詞介紹/字/天_.png);
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -290,7 +290,7 @@ th{
 }
 
 .Mac1_add_new{
-    background-image: url(../imgs/台詞介紹/天上的光芒都是敵人.png);
+    background-image: url(./imgs/台詞介紹/天上的光芒都是敵人.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 660px;
@@ -307,7 +307,7 @@ th{
 /* 台詞介紹第二 */
 
 .addclassbtn_02{
-    background-image: url(../imgs/台詞介紹/字/你.png);
+    background-image: url(./imgs/台詞介紹/字/你.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 108px;
@@ -317,7 +317,7 @@ th{
 }
 
 .addclassbtn_02:hover{
-    background-image: url(../imgs/台詞介紹/字/你_.png);
+    background-image: url(./imgs/台詞介紹/字/你_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -329,7 +329,7 @@ th{
 }
 
 .Mac2_add_new{
-    background-image: url(../imgs/台詞介紹/你以為我是誰阿.png);
+    background-image: url(./imgs/台詞介紹/你以為我是誰阿.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 500px;
@@ -346,7 +346,7 @@ th{
 
 /* 台詞介紹第三 */
 .addclassbtn_03{
-    background-image: url(../imgs/台詞介紹/字/不.png);
+    background-image: url(./imgs/台詞介紹/字/不.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 108px;
@@ -357,7 +357,7 @@ th{
 }
 
 .addclassbtn_03:hover{
-    background-image: url(../imgs/台詞介紹/字/不_.png);
+    background-image: url(./imgs/台詞介紹/字/不_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -369,7 +369,7 @@ th{
 }
 
 .Mac3_add_new{
-    background-image: url(../imgs/台詞介紹/不要相信你自己。相信我，相信那相信著你的我.png);
+    background-image: url(./imgs/台詞介紹/不要相信你自己。相信我，相信那相信著你的我.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 700px;
@@ -386,7 +386,7 @@ th{
 
 /* 台詞介紹第四 */
 .addclassbtn_04{
-    background-image: url(../imgs/台詞介紹/字/別.png);
+    background-image: url(./imgs/台詞介紹/字/別.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 108px;
@@ -396,7 +396,7 @@ th{
 }
 
 .addclassbtn_04:hover{
-    background-image: url(../imgs/台詞介紹/字/別_.png);
+    background-image: url(./imgs/台詞介紹/字/別_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -408,7 +408,7 @@ th{
 }
 
 .Mac4_add_new{
-    background-image: url(../imgs/台詞介紹/相信那相信你自己的吧!.png);
+    background-image: url(./imgs/台詞介紹/相信那相信你自己的吧!.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 550px;
@@ -424,7 +424,7 @@ th{
 /* 台詞介紹第五 */
 
 .addclassbtn_05{
-    background-image: url(../imgs/台詞介紹/字/我.png);
+    background-image: url(./imgs/台詞介紹/字/我.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 102px;
@@ -435,7 +435,7 @@ th{
 }
 
 .addclassbtn_05:hover{
-    background-image: url(../imgs/台詞介紹/字/我_.png);
+    background-image: url(./imgs/台詞介紹/字/我_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -447,7 +447,7 @@ th{
 }
 
 .Mac5_add_new{
-    background-image: url(../imgs/台詞介紹/我的靈魂.png);
+    background-image: url(./imgs/台詞介紹/我的靈魂.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 750px;
@@ -463,7 +463,7 @@ th{
 
 /* 台詞介紹第六 */
 .addclassbtn_06{
-    background-image: url(../imgs/台詞介紹/字/天.png);
+    background-image: url(./imgs/台詞介紹/字/天.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 108px;
@@ -473,7 +473,7 @@ th{
 }
 
 .addclassbtn_06:hover{
-    background-image: url(../imgs/台詞介紹/字/天_.png);
+    background-image: url(./imgs/台詞介紹/字/天_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -486,7 +486,7 @@ th{
 }
 
 .Mac6_add_new{
-    background-image: url(../imgs/台詞介紹/天上的光芒都是星星.png);
+    background-image: url(./imgs/台詞介紹/天上的光芒都是星星.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 600px;
@@ -502,7 +502,7 @@ th{
 
 /* 台詞介紹第七 */
 .addclassbtn_07{
-    background-image: url(../imgs/台詞介紹/字/我.png);
+    background-image: url(./imgs/台詞介紹/字/我.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 102px;
@@ -513,7 +513,7 @@ th{
 }
 
 .addclassbtn_07:hover{
-    background-image: url(../imgs/台詞介紹/字/我_.png);
+    background-image: url(./imgs/台詞介紹/字/我_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     transition: all 0.05s ;
@@ -525,7 +525,7 @@ th{
 }
 
 .Mac7_add_new{
-    background-image: url(../imgs/台詞介紹/我的鑽頭是可以突破天際的鑽頭.png);
+    background-image: url(./imgs/台詞介紹/我的鑽頭是可以突破天際的鑽頭.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 1150px;
@@ -574,7 +574,7 @@ th{
     height: 500px;
 }
 #mu_op_in{
-    background-image: url(../imgs/音樂/空色_內框_文字_唱片.png);
+    background-image: url(./imgs/音樂/空色_內框_文字_唱片.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -601,7 +601,7 @@ th{
 }
 
 #mu_md_in{
-    background-image: url(../imgs/音樂/Power_內框_文字_唱片_.png);
+    background-image: url(./imgs/音樂/Power_內框_文字_唱片_.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -629,7 +629,7 @@ th{
 }
 
 #mu_op2_in{
-    background-image: url(../imgs/音樂/繞之世界_文字_內框_唱片.png);
+    background-image: url(./imgs/音樂/繞之世界_文字_內框_唱片.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -661,7 +661,7 @@ th{
 
 
 #mu_ed_in{
-    background-image: url(../imgs/音樂/淚之種_文字_內框_唱片.png);
+    background-image: url(./imgs/音樂/淚之種_文字_內框_唱片.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -689,7 +689,7 @@ th{
 
     /* float: left; */
 
-    background-image: url(../imgs/劇場版/紅蓮篇.jpg);
+    background-image: url(./imgs/劇場版/紅蓮篇.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 500px;
@@ -724,7 +724,7 @@ th{
     border: rgba(0, 0, 0, 0.438) solid 5px;
 
     margin-top: 50px;
-    background-image: url(../imgs/劇場版/螺巖篇.jpg);
+    background-image: url(./imgs/劇場版/螺巖篇.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 500px;
