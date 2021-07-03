@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imgs/背景圖/小鑽頭背景背景紅棕深棕黃鑽頭x交叉.png) ;
+    background-image: url(./imgs/背景圖/小鑽頭背景背景紅棕深棕黃鑽頭x交叉.png) ;
     background-size: 68%;
 
 }
@@ -7,7 +7,7 @@ body{
 #gotop{
     z-index:1;
     transition: all .5s; /* 動畫效果 持續期間 */
-    background-image: url(../imgs/TOP鑽頭圖/top小鑽頭灰背景最終.png);
+    background-image: url(./imgs/TOP鑽頭圖/top小鑽頭灰背景最終.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 50px;
