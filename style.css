@@ -737,7 +737,7 @@ th{
 
 /* 圖片欣賞排版 */
 .psbackimg{
-    background-image: url(../imgs/圖片欣賞/背景.jpg);
+    background-image: url(./imgs/圖片欣賞/背景.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 1880px;
